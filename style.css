@@ -1,0 +1,101 @@
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300&family=Signika&family=Skranji&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    padding: 5px;
+    margin: 5px;
+}
+.navbar{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(248, 220, 243);
+}
+
+#twt{
+    background-color: rgb(94, 157, 230);
+}
+#tt{
+    background-color: black;
+}
+#yt{
+    background-color: red;
+}
+#fb{
+    background-color: blue;
+}
+#git{
+    background-color: gray;
+}
+
+
+.links{
+    border: 1px solid black;
+    display: inline;
+    font-family: 'Outfit';
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: .7;
+    transition: .4s;
+}
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: larger;
+    padding: 10px;
+}
+#linksgroup{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner{
+    background-image: url('images/beach.1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 550px;
+}
+
+.bannertext{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+
+}
+.bannertext h2{
+    font-family: 'Signika';
+    text-transform: uppercase;
+    color:rgb(228, 245, 248);
+    font-size: 6.5em;
+}
+
+.bannertext h2 span{
+    color:rgb(70, 104, 179);
+}
+
+.bannertext p{
+    color: rgb(43, 43, 43);
+    font-weight: 600;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(245, 178, 234);
+    margin-top: 1em;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    border-radius: 10px;
+}
